@@ -1,11 +1,19 @@
-
+import BarraLateral from './containers/BarraLateral'
+import ListaDeTarefas from './containers/ListaDeTarefas'
+import { Container, EstiloGlobal } from './styles'
 
 function App() {
   return (
     <div className="App">
-      <h1>Olá React</h1>
+      <>
+        <EstiloGlobal />
+        <Container>
+          <BarraLateral />
+          <ListaDeTarefas />
+        </Container>
+      </>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
