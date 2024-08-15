@@ -47,4 +47,6 @@ export const Botao = styled.button`
   border: none;
   cursor: pointer;
   background-color: #2f3640;
+  margin-right: 8px;
+  border-radius: 8px;
 `
