@@ -19,7 +19,7 @@ const initialState: TarefasState = {
       id: 2,
       descricao: 'Estudar material de apoio',
       prioridade: enums.Prioridade.IMPORTANTE,
-      status: enums.Status.CONCLUIDA,
+      status: enums.Status.PENDENTE,
       titulo: 'Estudar TypeScript'
     },
     {
