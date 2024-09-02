@@ -1,6 +1,4 @@
 import styled from 'styled-components'
-import { Botao } from '../../components/Tarefa/style'
-import variaveis from '../../styles/variaveis'
 
 export const Form = styled.form`
   max-width: 547px;

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Botao } from '../../styles'
 import variaveis from '../../styles/variaveis'
 
 import * as enums from '../../utils/enums/tarefas'
@@ -28,11 +29,18 @@ export const Card = styled.div`
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   margin-bottom: 32px;
+
+  label {
+    display: flex;
+    alignt-items: center;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
 `
 export const Titulo = styled.h3`
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 16px;
+  margin-left: 8px;
 `
 
 export const Tag = styled.span<TagProps>`
@@ -60,17 +68,6 @@ export const Descricao = styled.textarea`
 export const BarraAcoes = styled.div`
   padding: 16px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-`
-export const Botao = styled.button`
-  font-weight: bold;
-  font-size: 12px;
-  color: #fff;
-  padding: 8px 12px;
-  border: none;
-  cursor: pointer;
-  background-color: #2f3640;
-  margin-right: 8px;
-  border-radius: 8px;
 `
 
 export const BotaoCancelarRemover = styled(Botao)`
